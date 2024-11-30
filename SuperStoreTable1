@@ -46,9 +46,9 @@ SELECT MAX(price)
 -- How many Smart LED TVs are left?
 SELECT SUM(stock_quantity),('Smart LED TV')
 	FROM superstore
-	WHERE category='Electronics'
+	WHERE item_name='Smart LED TV'
 ;
 -- How many Smart Home security camera are left?
-SELECT COUNT(stock_quantity),('Smart Home Security Camera')
+SELECT SUM(stock_quantity),('Smart Home Security Camera')
 	FROM superstore
-    WHERE Category='Electronics'
+    WHERE item_name='Smart Home Security Camera'
