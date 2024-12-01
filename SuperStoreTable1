@@ -29,6 +29,7 @@ VALUES
 
 
 ------> Analyzation <---------
+
 -- Summary of electronics
  SELECT*
 	FROM superstore
